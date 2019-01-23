@@ -1,0 +1,106 @@
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    background: black;
+    color: white;
+}
+
+.mm-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.titolo {
+    color: #cd5c5c;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.settings {
+    font-size: 1.15rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.form-player {
+    width: 100%;
+    max-width: 420px;
+    padding: 15px;
+    margin: 0 auto 5%;
+}
+.form-label-player {
+    position: relative;
+    margin-bottom: 1rem;
+}
+.lbl-form {
+    font-style: italic;
+}
+.options-user {
+    margin: 0 auto 10%;
+}
+.options-game {
+    margin: 2% auto 10%;
+    align-items: center!important;
+}
+
+.options-game .col-md-4 {
+    text-align: left;
+    padding-left: 0;
+    align-items: center!important;
+}
+
+.options-game .col-md-4 .lbl-form {
+    margin-bottom: 0;
+}
+
+.options-game .col-md-8 {
+    text-align: right;
+    padding-right: 0;
+    align-items: center!important;
+}
+
+.user-1 {
+    font-weight: bold;
+    color: #007bff;
+}
+.user-2 {
+    font-weight: bold;
+    color: #ffc107;
+}
+
+.box-input {
+    margin-right: 2%;
+    text-align: center;
+}
+
+.box-input-ins {
+    place-content: center;
+}
+
+.form-game {
+    width: 100%;
+    max-width: 420px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.box-play {
+    margin: 0 auto 10%;
+}
+
+.result {
+    margin: 0 auto 5%;
+}
+.result-score {
+    margin: 0 auto 2%;
+}
+
+.error-messagge {
+	color: #dc3545;
+	font-weight: bold;
+	font-style: italic;
+}
